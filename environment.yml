@@ -1,0 +1,10 @@
+name: pyro_tutorial
+channels:
+  - defaults
+  - conda-forge
+  - blaze
+  - bokeh
+dependencies:
+  - python=3.6.*
+  - pip:
+    - pyro-ppl[extras]

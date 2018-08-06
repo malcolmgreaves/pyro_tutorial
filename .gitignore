@@ -1,0 +1,56 @@
+# Project specific
+
+# Misc
+*~
+*.swp
+*.DS_Store
+.idea
+.python-version
+*.log
+tmp/
+
+# Python
+*.pyc
+*.pyo
+*.pyd
+.mypy_cache
+__pycache__
+*.ipynb
+ipynb*
+*.ipynb_checkpoints
+
+# Editors
+.idea
+
+# Building
+build/
+dist/
+.eggs/
+*.egg-info/
+*.so
+
+# Testing
+.cache
+.coverage
+!.coveragerc
+htmlcov
+coverage.html
+coverage.xml
+xunit.xml
+*.log
+
+# temp
+
+
+# specific things
+output/cyber_quizzes/cyber_04-24-18--quizzes.json
+output/cyber_quizzes/distractie_raw--cyber_04-24-18--quizzes.json
+output/cyber_quizzes/enhanced--cyber_04-24-18--quizzes.json
+large_data*
+small_data*
+*cyber_042418*
+*cyber_04-24-18*
+<<<<<<< HEAD
+demo.json
+distractie_out.json
+*.json
